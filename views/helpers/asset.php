@@ -97,7 +97,7 @@ class AssetHelper extends Helper {
 							$scripts_for_layout[] = $resource;
 						}
 					} else if($type == 'codeblock') {
-						if(!stristr($resource, '.js') && !stristr($resource,' .css')) {
+						if(!stristr($resource, '.js') && !stristr($resource, '.css')) {
 							$scripts_for_layout[] = $resource;
 						}
 					}
